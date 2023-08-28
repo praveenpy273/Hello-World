@@ -2,4 +2,5 @@ def greet(name):
     return f'Hello, {name} !'
 
 
-print(greet('Ram'))
+name = input('Enter the name of the person ypu want to greet: ')
+print(greet(name))
